@@ -1,4 +1,3 @@
-// Use environment variable for API key
 const API_KEY = import.meta.env.VITE_RAPIDAPI_KEY
 const BASE_URL = 'https://sky-scrapper.p.rapidapi.com/api'
 
