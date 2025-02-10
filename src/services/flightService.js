@@ -1,5 +1,9 @@
-const API_KEY = 'a8238d5604mshc39c26b9cc3357ep11f01ajsn4afb2ef3e9ca'
+// Use environment variable for API key
+const API_KEY = import.meta.env.VITE_RAPIDAPI_KEY
 const BASE_URL = 'https://sky-scrapper.p.rapidapi.com/api'
+
+// Debug log for API key
+console.log('API Key loaded:', API_KEY ? 'Yes' : 'No')
 
 const headers = {
   'X-RapidAPI-Key': API_KEY,
